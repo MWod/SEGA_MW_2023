@@ -1,11 +1,31 @@
-# SEG.A - MW - 2023
+# SEG.A - 2023
 Contribution to the SEG.A Challenge (MICCAI 2023) by Marek Wodzinski.
+
+The repository presents the contribution to the SEG.A Challenge that scored:
+   * 1st place in the clinical evaluation
+   * 4th place in the evaluation based on quantiative metrics
+   * 3rd place in the volumetric meshing quality
 
 The challenge website: [Link](https://multicenteraorta.grand-challenge.org/multicenteraorta/)
 
-Here you can see the full source code used to train / test the proposed solution.
+The repository provides the full source code used to train / test the proposed solution.
 
-Only the final experiment is left (the one used for the final Docker submission).
+# Results
+The exemplary qualitative results obtained by the method and compared to the ground-truth are visible below:
+
+![Mesh Visualization](./figures/visualization.png)
+
+Exemplary cases from each medical center from the cross-validation dataset:
+
+![Volumetric Visualization](./figures/results2.png)
+
+And finally, the quantitative comparison to other challenge participants is as follows:
+
+![Results](./figures/results.PNG)
+
+# Reproducibility
+
+Only the final experiment is available in the repository (the one used for the final Docker submission).
 
 * In order to reproduce the experiment you should:
     * Download the SEG.A dataset [Link](https://multicenteraorta.grand-challenge.org/data/)
@@ -17,14 +37,20 @@ Only the final experiment is left (the one used for the final Docker submission)
 
 The network was trained using HPC infrastructure (PLGRID). Therefore the .slurm scripts are omitted for clarity.
 
-To run just the inference - the final model is available upon request. 
-You can also apply for an access to the algorithm directly using the Grand-Challenge platform: [Link](https://grand-challenge.org/algorithms/sega_mw/)
+# Inference 
 
-* If you found the source code useful, please cite:
- * 1) The SEGA Challenge Paper (TODO) 
- * 2) The paper presenting the proposed solution (TODO)
+In case you are interested in just running the code:
+* If you want to run the model locally - the final model is available upon reasonable request.
+* You can also apply for an access to the algorithm directly using the Grand-Challenge platform: [Link](https://grand-challenge.org/algorithms/sega_mw/). Access will be provided without restrictions.
 
-Please find the method description: [Description](TODO).
+# Publications
 
+If you found the source code useful, please cite:
+ * The SEG.A Challenge Paper - Will Be There Soon
+ * The paper presenting the proposed solution:
+      * arXiv: [Paper](https://arxiv.org/abs/2310.15827)
+      * Springer: Will Be There Soon
 
-The description will be extended soon.
+# Acknowledgements
+
+We gratefully acknowledge Polish HPC infrastructure PLGrid support within computational grant no. PLG/2023/016239.
