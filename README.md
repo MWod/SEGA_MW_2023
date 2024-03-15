@@ -49,7 +49,7 @@ If you found the source code useful, please cite:
  * The SEG.A Challenge Paper - Will Be There Soon
  * The paper presenting the proposed solution:
       * arXiv: [Paper](https://arxiv.org/abs/2310.15827)
-      * Springer: Will Be There Soon
+      * Springer: [Paper](https://link.springer.com/chapter/10.1007/978-3-031-53241-2_4) (Please cite this version)
 
 # Acknowledgements
 
